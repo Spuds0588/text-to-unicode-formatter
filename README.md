@@ -1,6 +1,6 @@
 # Unicode Text Formatter Chrome Extension
 
-A powerful Chrome extension that transforms selected text into various Unicode styles and formats, working seamlessly across websites and text input fields.
+A  Chrome extension that transforms selected text into various Unicode styles and formats, without having to copy and paste into a seperate formatter window
 
 ## Features
 
@@ -33,7 +33,7 @@ Selecting "Hello" and choosing the "●" bullet will result in: "● Hello"
    - Text styles (Bold, Italic, Monospace, Underline, Strikethrough)
    - Bullet points (multiple styles available)
 
-The extension works in:
+The extension (should) work in:
 - Regular webpages
 - Text input fields
 - Textareas
@@ -43,8 +43,6 @@ The extension works in:
 
 - Uses Unicode character maps for text transformation
 - Handles both simple text and rich text environments
-- Preserves line breaks and spacing
-- Falls back to clipboard API when direct text manipulation isn't possible
 - Supports both single-line and multi-line text formatting
 
 ## Installation
@@ -68,9 +66,5 @@ extension/
 ## Contributing
 
 Feel free to submit issues and enhancement requests!
-
-[Add contribution guidelines if needed]
-
----
 
 **Note**: This extension modifies text using Unicode characters, which means the transformed text will be preserved across different platforms and applications that support Unicode.
