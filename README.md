@@ -61,7 +61,7 @@ extension/
 ```
 ## License
 
-[Add your license here]
+MIT License
 
 ## Contributing
 
